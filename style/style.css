@@ -1,0 +1,245 @@
+*   {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/****** HEADER ******/
+header {
+    background-color: #212F3D ;
+    padding: 10px;
+    max-width: 100%;
+}
+
+header .row {
+    color: aliceblue;
+    display: flex;
+}
+
+#logo {
+    padding: 0px 10px 0px 20px;
+    flex-grow: 0;
+}
+
+#image-logo {
+    width: 60px;
+}
+
+#nav {
+    flex-grow: 8;
+}
+
+#nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav li {
+    padding: 30px 10px 20px 30px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#nav a:hover {
+    color: gold;
+}
+
+#login {
+    flex-grow: 0;
+    padding: 30px 10px 20px 30px;
+}
+
+#login a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#login a:hover {
+    color: gold;
+}
+
+
+/****** JUMBOTRON ******/
+.jumbotron {
+    background-color: #212F3D ;
+    padding: 10px;
+    height: 580px;
+}
+
+.jumbotron .row {
+    color: aliceblue;
+    display: flex;
+}
+
+.jumbotron .col {
+    flex: 50%;
+}
+
+.jumbotron img {
+    width: 100%;
+    margin-left: -40px;
+}
+
+.jumbotron .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#title-content {
+    font-size: 3rem;
+    padding: 70px 30px;
+}
+
+#subtitle-content {
+    line-height: 20px;
+    font-style: italic;
+    padding: 10px 30px;
+}
+
+#form-content {
+    padding: 10px 30px;
+}
+
+#form-content input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#form-content button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+
+#message-content {
+    padding: 10px 30px;
+    line-height: 20px;
+    font-size: 0.8rem;
+}
+
+/****** BLOG ******/
+.blog {
+    padding: 10px;
+}
+
+.blog .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-center;
+    align-items: center;
+}
+
+#blog-new {
+    color: #4CAF50;
+    padding: 80px 0 10px 0;
+}
+
+#blog-title {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+#blog-subtitle {
+    padding: 2px;
+    font-size: 1rem;
+    font-style: italic;
+    color: gray;
+}
+
+.blog .posts {
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .posts .col {
+    flex: 33%;
+}
+
+.blog .card {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;  
+}
+
+.blog .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.blog img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.blog .card-title {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.blog .card-content {
+    padding: 20px;
+    text-align: justify;
+}
+
+.blog .card-sign {
+    display: flex;
+}
+
+#img-sign {
+    border-radius: 50px;
+    width: 50px;
+    margin: 0 5px 10px 30px;
+}
+
+.blog .name-sign {
+    padding: 5px;
+}
+
+.blog .sign {
+    padding: 5px;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+/**** CONTACTANOS *****/
+.contactanos {
+    background-color: #212F3D ;
+    display: flex;
+}
+
+.contact {
+    flex: 50%;
+    height: auto;
+}
+
+.contact img {
+    width: 100%;
+}
+
+.contact form {
+    padding-top: 200px;
+}
