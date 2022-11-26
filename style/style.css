@@ -243,3 +243,18 @@ header .row {
 .contact form {
     padding-top: 200px;
 }
+
+.contact form p {
+    color: aquamarine;
+    font-size: 1.2rem;
+}
+
+
+/******* INFO *****/
+.info {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+
