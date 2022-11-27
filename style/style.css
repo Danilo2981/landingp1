@@ -257,4 +257,38 @@ header .row {
     justify-content: space-between;
 }
 
+.info .redes ul{
+    display: flex;
+}
+
+.info .redes li {
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.info .redes a {
+    text-decoration: none;
+    color: green;
+}
+
+.info .redes a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.info .paginas {
+    padding: 30px 0 30px 0;
+}
+
+.info .paginas li {
+    padding: 10px;
+}
+
+.info .paginas a {
+    text-decoration: none;
+    color: black;
+}
+
+
 
