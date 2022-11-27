@@ -290,5 +290,199 @@ header .row {
     color: black;
 }
 
+footer {
+    text-align: center;
+    color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    
+    /****** HEADER ******/
+    header {
+        min-width: 50%;
+    }
+
+    #image-logo {
+        width: 30px;
+    }
+    
+    #nav li {
+        padding: 8px 6px;
+    }
+
+    #nav a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    #login {
+        display: none;
+    }
+
+
+    /****** JUMBOTRON ******/
+    
+    .jumbotron .row {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .jumbotron .col {
+        max-width: 600px;
+        flex: 50%;
+    }
+
+    .jumbotron img {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    .jumbotron .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #title-content {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+
+    #subtitle-content {
+        font-size: 0.8rem;
+        font-style: italic;
+        padding: 10px 40px;
+    }
+
+    #form-content {
+        font-size: 0.8rem;
+        padding: 10px 20px;
+    }
+
+    #form-content input {
+        width: 70%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    #form-content button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.9rem;
+        margin: 8px 2px;
+        cursor: pointer;
+    }
+
+    #message-content {
+        padding: 10px 40px;
+        /* line-height: 20px; */
+        font-size: 0.8rem;
+    }
+
+    /****** BLOG ******/
+    .blog {
+        max-width: 600px;
+        padding: 10px;
+    }
+
+    .blog .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-center;
+        align-items: center;
+    }
+
+    #blog-new {
+        color: #4CAF50;
+        padding: 80px 0 10px 0;
+    }
+
+    #blog-title {
+        text-align: center;
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    #blog-subtitle {
+        text-align: center;
+        width: 80%;
+        padding: 2px;
+        font-size: 1rem;
+        font-style: italic;
+        color: gray;
+    }
+
+    .blog .posts {
+        /* padding: 30px 120px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .blog .posts .col {
+        flex: 100%;
+    }
+
+    .blog .card {
+        width: 300px;
+        margin: 10px 0 10px -100px;
+    }
+
+    
+    /**** CONTACTANOS *****/
+    .contactanos {
+        background-color: #212F3D ;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        flex: 100%;
+        height: auto;
+    }
+
+    .contact img {
+        max-width: 600px;
+    }
+
+    .contact form {
+        padding-top: 10px;
+    }
+
+    /******* INFO *****/
+    .info {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .info .mapa {
+        display: none;
+    }   
+
+    footer {
+        font-size: 0.8rem;
+        text-align: center;
+        color: grey;
+    }
+}
+  
+
 
 
